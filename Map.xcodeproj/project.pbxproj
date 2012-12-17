@@ -15,6 +15,8 @@
 		0C8666F815FD885900E0E929 /* MapAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8666F715FD885900E0E929 /* MapAppDelegate.m */; };
 		0C8666FB15FD885900E0E929 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C8666F915FD885900E0E929 /* MainStoryboard.storyboard */; };
 		0C8666FE15FD885900E0E929 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8666FD15FD885900E0E929 /* MapViewController.m */; };
+		0C86670515FD887000E0E929 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C86670415FD887000E0E929 /* MapKit.framework */; };
+		0C86670815FD88AF00E0E929 /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C86670715FD88AF00E0E929 /* Annotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,9 @@
 		0C8666FA15FD885900E0E929 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		0C8666FC15FD885900E0E929 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		0C8666FD15FD885900E0E929 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		0C86670415FD887000E0E929 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0C86670615FD88AF00E0E929 /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
+		0C86670715FD88AF00E0E929 /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +46,7 @@
 				0C8666E815FD885900E0E929 /* UIKit.framework in Frameworks */,
 				0C8666EA15FD885900E0E929 /* Foundation.framework in Frameworks */,
 				0C8666EC15FD885900E0E929 /* CoreGraphics.framework in Frameworks */,
+				0C86670515FD887000E0E929 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +73,7 @@
 		0C8666E615FD885900E0E929 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0C86670415FD887000E0E929 /* MapKit.framework */,
 				0C8666E715FD885900E0E929 /* UIKit.framework */,
 				0C8666E915FD885900E0E929 /* Foundation.framework */,
 				0C8666EB15FD885900E0E929 /* CoreGraphics.framework */,
@@ -77,6 +84,8 @@
 		0C8666ED15FD885900E0E929 /* Map */ = {
 			isa = PBXGroup;
 			children = (
+				0C86670615FD88AF00E0E929 /* Annotation.h */,
+				0C86670715FD88AF00E0E929 /* Annotation.m */,
 				0C8666F615FD885900E0E929 /* MapAppDelegate.h */,
 				0C8666F715FD885900E0E929 /* MapAppDelegate.m */,
 				0C8666F915FD885900E0E929 /* MainStoryboard.storyboard */,
@@ -165,6 +174,7 @@
 				0C8666F415FD885900E0E929 /* main.m in Sources */,
 				0C8666F815FD885900E0E929 /* MapAppDelegate.m in Sources */,
 				0C8666FE15FD885900E0E929 /* MapViewController.m in Sources */,
+				0C86670815FD88AF00E0E929 /* Annotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
